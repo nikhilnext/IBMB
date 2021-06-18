@@ -19,7 +19,16 @@ namespace SitefinityWebApp
 
         }
 
-      
+
+
+        [WebMethod(EnableSession = true)]
+        //public static string Data(string DealType, string Year,string Sector)
+        public static string TestGitChange(string DealType, string Sector)
+        {
+            return "ok";
+        }
+
+
         [WebMethod(EnableSession = true)]
         //public static string Data(string DealType, string Year,string Sector)
         public static string Data(string DealType, string Sector)
