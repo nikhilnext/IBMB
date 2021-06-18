@@ -1,0 +1,41 @@
+﻿body {
+    margin: 0 auto;
+    padding: 0px;
+    font-size: 14px;
+    font-family: 'gill1-webfont', sans-serif;
+    color: #404040;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: graysacle;
+    line-height: 1.7em;
+}
+h1.main_hd text-center {
+    font-family: 'gill1-webfont';
+}
+/*@font-face {
+    font-family: 'gill1-webfont';
+    src: url('fonts/gill1-webfont.woff2') format('woff2');
+    src: url('fonts/gill1-webfont.eot') format('embedded-opentype');
+    src: url('fonts/gill1-webfont.svg') format('svg');
+    src: url('fonts/gill1-webfont.ttf') format('truetype');
+    src: url('fonts/gill1-webfont.woff') format('woff');
+}*/
+@font-face {
+    font-family: 'gill1-webfont';
+    src: url('../App_Data/Sitefinity/WebsiteTemplates/templates/App_themes/theme/global/Fonts/gill1-webfont.eot') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'gill1-webfont';
+    src: url('../App_Data/Sitefinity/WebsiteTemplates/templates/App_themes/theme/global/Fonts/gill1-webfont.svg') format('svg');
+}
+@font-face {
+    font-family: 'gill1-webfont';
+    src: url('../App_Data/Sitefinity/WebsiteTemplates/templates/App_themes/theme/global/Fonts/gill1-webfont.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'gill1-webfont';
+    src: url('../App_Data/Sitefinity/WebsiteTemplates/templates/App_themes/theme/global/Fonts/gill1-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'gill1-webfont';
+    src: url('../App_Data/Sitefinity/WebsiteTemplates/templates/App_themes/theme/global/Fonts/gill1-webfont.woff2') format('woff2');
+}

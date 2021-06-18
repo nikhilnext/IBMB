@@ -1,0 +1,169 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Yes_Test.master.cs" Inherits="SitefinityWebApp.Yes_Test" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head runat="server">
+  <title>Welcome To YES SECURITIES</title>
+
+
+     
+
+
+
+<meta charset="utf-8">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="/Sitefinity/Public/ResponsiveDesign/layout_transformations.css?pageDataId=9a766438-9939-45ed-9fa5-b460af27981c&amp;unique_key=e058d635-9543-4f4d-b28c-76c8b7c482a2" type="text/css" rel="stylesheet">
+
+ <%-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> --%>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+
+    <link href="/Sitefinity/Public/ResponsiveDesign/layout_transformations.css?pageDataId=9a766438-9939-45ed-9fa5-b460af27981c&amp;unique_key=c7c6e546-9110-4666-8288-a06a9949d289" type="text/css" rel="stylesheet">
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+
+
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+
+
+    <%--    <!--Header section start--><!-- #BeginLibraryItem "/Library/header.lbi" -->
+<div class="markt">
+  <header class="ts0 fixed-header">
+    <div class="container">
+      <div class="row vertical-align">
+        <div class="col-md-2 col-sm-4 col-xs-7"> <a href="home.aspx"><img class="img-responsive logo" src="images/logo.png"></a> </div>
+        <div class="col-md-10 col-sm-8 hidden-xs">
+			<div class="tagline">India’s Leading Full Service Investment &amp; Merchant Bank</div>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom gradient">
+      <div class="container">
+        <div class="row">
+          <nav class="col-sm-12">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navigation">
+              <ul class="nav navbar-nav menu">
+                <li><a href="about.aspx">About Us</a> </li>
+                <li><a href="services.aspx">Services</a> </li>
+                <li><a href="deals.aspx">Deals</a> </li>
+                <li><a href="insights.aspx">Insights</a> </li>
+				<li><a href="offer-documents.aspx">Offer Documents</a> </li>
+				<li><a href="media.aspx">Media</a> </li>
+				<li><a href="contact.aspx">Contact Us</a> </li>
+				<li><a href="#" class="">Wealth Management</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+</div><!-- #EndLibraryItem --><!--Header section end-->--%>
+
+        </asp:ContentPlaceHolder>
+        </div>
+
+
+
+
+         <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+
+
+         <%--   <!--Footer section start--><!-- #BeginLibraryItem "/Library/footer.lbi" -->
+        <div class="container"> 
+<div class="overlay"></div>
+<div class="footer_sec">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="footer_links">
+        <ul class="regulatory_links form-group">
+          <li><a href="#">Regulatory Disclosure</a></li>
+          <li> | </li>
+          <li><a href="#">Privacy Policy &amp; Disclaimers</a></li>
+          <li> | </li>
+          <li><a href="#">Standard Documents &amp; Policies</a></li>
+          <li> | </li>
+          <li><a href="#">Careers</a></li>
+          <li> | </li>
+          <li><a href="#">Grievances</a></li>
+          <li> | </li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+        <div class="form-group">
+            <p class="mrb0">CIN: U 74992 MH 2013 PLC 240971 | SEBI Registration – NSE: INB/F/E/231491433, BSE INB/F 011491439 | SEBI Merchant Banker Registration: MB / INM 0000 12227</p>
+            <p class="mrb0">In case of any merchant banking related grievances / complaints, you may contact the compliance officer / investor grievance cell at <a href="mailto:igc@yessecuritiesltd.in">igc@yessecuritiesltd.in</a> or lodge your grievances with SEBI at <a href="http://scores.gov.in" target="_blank">http://scores.gov.in</a></p>
+			<p class="mrb0">Details of the Compliance Officer: Name - Dr. Dhanraj Uchil; Contact No: 022 3347 9684; Email id: <a href="mailto:igc@yessecuritiesltd.in">igc@yessecuritiesltd.in</a></p>
+			<p class="mrb0">Disclaimer: Investment in securities involve a degree of risk and investors should not invest unless they can afford to take the risk</p>
+			<p class="mrb0">Registered Address: Unit No. 602 A, 6th Floor, Tower 1 & 2, Indiabulls Finance Centre, Senapati Bapat Marg, Elphinstone Road, Mumbai – 400013, Maharashtra, India.</p>
+        </div>
+        <div class="form-group">
+          <ul class="regulatory_links">
+            <li><span class="footer_gray">Useful Links: &nbsp;</span> <a href="#">NSE</a></li>
+            <li> | </li>
+            <li><a href="#">BSE </a></li>
+            <li> | </li>
+            <li><a href="#">NSDL</a></li>
+            <li> | </li>
+            <li><a href="#">CDSL</a></li>
+          </ul>
+        </div>
+        <ul class="copyright">
+          <li>Copyright © 2018 YES Securities (India) Limited</li>
+          <li class="pull-right"><img src="images/ys-small.svg"> is a wholly owned subsidiary of <img src="images/yb-small.svg"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>--%>
+
+        
+
+<script src="js/jquery.min.js"></script>
+       <%-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> --%>
+<script src="js/bootstrap.min.js"></script> <!-- #EndLibraryItem --><!--Footer section start--> 
+  </div>
+  <!--Maincontainer section End--> 
+  
+</div>
+<script src="js/jquery.flexslider.js"></script>
+        <script src="js/IBMB.js"></script>
+
+ 
+
+
+    </form>
+</body>
+
+
+</html>
+
